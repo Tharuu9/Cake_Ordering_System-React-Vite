@@ -30,7 +30,7 @@ class Home extends React.Component<any, any>{
             </div>
 
             <div className=" absolute bg-white px-8 py-2 bottom-0 -left-10 rounded-full">
-              <h2 className=" font-semibold">Cappuccino</h2>
+              <h2 className=" font-semibold">Chocolate</h2>
             </div>
           </div>
         </div>
