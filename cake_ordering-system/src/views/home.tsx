@@ -11,7 +11,7 @@ class Home extends React.Component<any, any>{
         <div className=" min-h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 bg-orange-100 font-bold text-amber-950 italic ">
           <div className=" w-full lg:w-2/4 space-y-4 mt-14 lg:mt-0">
             <h1 className="font-semibold text-5xl text-center lg:text-start leading-tight font-bold text-amber-950 italic">
-              Delicious Cake
+              Delicious Fresh Cake
             </h1>
             <p>
               The Perfect Cure for Your Sweet Tooth!!
