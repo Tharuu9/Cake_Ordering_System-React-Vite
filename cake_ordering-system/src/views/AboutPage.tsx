@@ -11,22 +11,17 @@ class MenuPage extends React.Component<any, any>{
 
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="w-full lg:w-2/4">
-                    <img className="rounded-lg" src="../assets/about.png" alt="img"/>
+                    <img className="rounded-lg" src="/src/assets/about.png" alt="img"/>
                 </div>
                 <div className="w-full lg:w-2/4 p-4 space-y-3  items-center justify-center">
                     <h2 className="font-semibold text-3xl items-center justify-center font-bold text-amber-950 italic">
-                        What Makes Our Coffee Special?
+                        What Makes Our Coffee Cake Special?
                     </h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                        quaerat quia quasi beatae et iste, tempora voluptatum corporis sit
-                        pariatur eaque exercitationem, doloribus eum optio nobis cum?
-                        Quidem, dolor atque.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut
-                        minima perspiciatis doloribus quod repellendus molestiae rerum!
-                        Enim, vero natus.
+                        Coffee cake and regular cake are made with the same ingredients like flour, sugar, eggs,
+                        and butter and a leavening agent like baking powder.The difference is that instead of frosting on top, coffee cakes have crumble or streusel.
+                        Just like a cake, it can also have glaze or icing.
+
                     </p>
 
                     <div className=" flex flex-row gap-6">
