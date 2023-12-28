@@ -11,7 +11,7 @@ const Card = (props) => {
             <div className="flex flex-wrap justify-center">
                 <div className="w-3/6 sm:w-4/8 px-1">
                     <img src={props.img}
-                         alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none"/>
+                         alt="..." className="shadow rounded-full max-w-full h-full align-middle border-none"/>
                 </div>
             </div>
             <div className=" flex flex-col items-center mt-5 gap-3">
