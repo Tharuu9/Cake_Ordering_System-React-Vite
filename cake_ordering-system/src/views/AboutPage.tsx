@@ -25,7 +25,7 @@ class MenuPage extends React.Component<any, any>{
                     </p>
 
                     <div className=" flex flex-row gap-6">
-                        <Button title="Learn more" />
+                        <Button title="See more" />
                     </div>
 
                 </div>
