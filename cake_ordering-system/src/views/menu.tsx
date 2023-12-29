@@ -17,12 +17,12 @@ function  Menu():JSX.Element {
                 </h1>
 
                 <div className=" flex flex-wrap pb-8 gap-8 justify-center font-bold text-amber-950 italic">
-                    <Card img={img1} title="Chocolate Cake" price="150Rs"/>
-                    <Card img={img2} title="Cappuccino" price="180Rs" />
-                    <Card img={img3} title="Latte" price="150Rs" />
-                    <Card img={img4} title="Americano" price="175Rs"  />
-                    <Card img={img5} title="Cashewnuts Cake" price="120Rs"  />
-                    <Card img={img6} title="Strawberry Cake" price="100Rs"  />
+                    <Card img={img1} title="Chocolate Cake" price="Rs:5500"/>
+                    <Card img={img2} title="Brownies With Chocolate Cake" price="Rs:2800" />
+                    <Card img={img3} title="Cheese Cake" price="Rs:3200" />
+                    <Card img={img4} title="Red Velvet Cake" price="Rs:2750"  />
+                    <Card img={img5} title="Cashewnuts Cake" price="Rs:2500"  />
+                    <Card img={img6} title="Strawberry Cake" price="Rs:4000"  />
                 </div>
             </div>
 
