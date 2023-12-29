@@ -16,7 +16,7 @@ function  Menu():JSX.Element {
                     Our Exclusive Products
                 </h1>
 
-                <div className=" flex flex-wrap pb-8 gap-8 justify-center font-bold text-amber-950 italic">
+                <div className=" flex flex-wrap pb-8 gap-8 justify-center font-bold text-amber-950 italic ">
                     <Card img={img1} title="Chocolate Cake" price="Rs:5500"/>
                     <Card img={img2} title="Brownies With Chocolate Cake" price="Rs:2800" />
                     <Card img={img3} title="Cheese Cake" price="Rs:3200" />
