@@ -37,8 +37,8 @@ class Login extends React.Component<any, any> {
             <button className={'main-btn '}>Sign In</button>
           </div>
 
-          <div className={'text-center mt-5'}>
-            Do not have an account? <Link to={'/signup'}><span className={'text-amber-700 underline'}>Sign up now</span></Link>
+          <div className={'text-center mt-5 '}>
+            Do not have an account? <Link to={'/signup'}><span className={'text-white-100 italic'}>Sign up now</span></Link>
           </div>
 
         </div>
