@@ -8,8 +8,7 @@ function Order(): JSX.Element {
     return(
         <section className={'flex justify-center items-center p-5'}>
             <div className={'w-fit p-10 border shadow-xl rounded-xl'}>
-
-                {/*<img src="/src/assets/login img.png" title="logo" alt="logo" className={'w-24 m-auto'}/>*/}
+                <img src="/src/assets/logo.jpg" title="logo" alt="logo" className={'w-24 m-auto'}/>
 
                 <div className={'text-2xl font-bold text-amber-950 text-center mt-5'}>
                     Order Now
@@ -23,7 +22,7 @@ function Order(): JSX.Element {
                             type={'text'}
                             name={'name'}
                             label={'Name'}
-                            placeholder={'Enter your name'}
+                            placeholder={'Enter your name:'}
                             optional={false}/>
 
                     </div>
@@ -31,22 +30,22 @@ function Order(): JSX.Element {
                     <Input
                         type={'text'}
                         name={'phone number'}
-                        label={'phone number'}
-                        placeholder={'Phone Number'}
+                        label={'Phone number'}
+                        placeholder={'Phone Number:'}
                         optional={false}/>
 
                     <Input
                         type={'address'}
                         name={'address'}
-                        label={'address'}
-                        placeholder={'Enter your Address'}
+                        label={'Address'}
+                        placeholder={'Enter your Address:'}
                         optional={false}/>
 
                     <Input
                         type={'email'}
                         name={'email'}
-                        label={'email'}
-                        placeholder={'Enter your Email'}
+                        label={'Email'}
+                        placeholder={'Enter your Email:'}
                         optional={false}/>
                 </div>
 
