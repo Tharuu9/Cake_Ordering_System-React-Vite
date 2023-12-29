@@ -21,14 +21,14 @@ function Signup(): JSX.Element {
                 type={'text'}
                 name={'name'}
                 label={'First Name'}
-                placeholder={'Enter your first name'}
+                placeholder={'Enter your first name:'}
                 optional={false}/>
 
               <Input
                 type={'text'}
                 name={'lname'}
                 label={'Last Name'}
-                placeholder={'Enter your last name'}
+                placeholder={'Enter your last name:'}
                 optional={false}/>
 
             </div>
@@ -37,21 +37,21 @@ function Signup(): JSX.Element {
               type={'text'}
               name={'username'}
               label={'Username'}
-              placeholder={'Enter your username'}
+              placeholder={'Enter your username:'}
               optional={false}/>
 
             <Input
               type={'email'}
               name={'email'}
               label={'Email'}
-              placeholder={'Enter your email'}
+              placeholder={'Enter your email:'}
               optional={false}/>
 
             <Input
               type={'password'}
               name={'password'}
               label={'Password'}
-              placeholder={'Enter your password'}
+              placeholder={'Enter your password:'}
               optional={false}/>
           </div>
 
