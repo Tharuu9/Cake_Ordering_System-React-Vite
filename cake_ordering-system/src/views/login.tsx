@@ -21,14 +21,14 @@ class Login extends React.Component<any, any> {
               type={'user name'}
               name={'user name'}
               label={'User Name'}
-              placeholder={'Enter your User Name'}
+              placeholder={'Enter your User Name:'}
               optional={false}/>
 
               <Input
                 type={'password'}
                 name={'password'}
                 label={'Password'}
-                placeholder={'Enter your password'}
+                placeholder={'Enter your password:'}
                 optional={false}/>
 
           </div>
