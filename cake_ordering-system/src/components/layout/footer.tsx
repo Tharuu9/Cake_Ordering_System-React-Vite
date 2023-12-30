@@ -7,9 +7,8 @@ function Footer(): JSX.Element {
           <div className=" w-full md:w-1/4">
             <h1 className=" font-semibold text-xl pb-4">DelishCake</h1>
             <p className=" text-sm">
-              Welcome to our coffee haven! Explore our aromatic brews, savor
-              artisanal flavors, and discover the perfect roast to elevate your
-              daily ritual.
+              Welcome to our cake haven! Love is like a cake, you have to cook it well to be able to savor it.
+              Otherwise you risk pulling it out raw or burned.
             </p>
           </div>
           <div>
@@ -71,7 +70,7 @@ function Footer(): JSX.Element {
                   className=" hover:text-backgroundColor transition-all cursor-pointer"
                   href="/"
               >
-                CafePulse@email.com
+                DelishCake@email.com
               </a>
               <a
                   className=" hover:text-backgroundColor transition-all cursor-pointer"
