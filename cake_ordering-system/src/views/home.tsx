@@ -8,7 +8,7 @@ class Home extends React.Component<any, any>{
 
   render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | Iterable<React.ReactNode> | React.ReactPortal | boolean | any | null | undefined {
     return(
-        <div className=" min-h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 bg-pink-100 font-bold text-black italic ">
+        <div className=" min-h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 bg-white font-bold text-black italic ">
           <div className=" w-full lg:w-2/4 space-y-4 mt-14 lg:mt-0">
             <h1 className="font-semibold text-5xl text-center lg:text-start leading-tight font-bold text-black italic">
               Delicious Fresh Cake
@@ -17,9 +17,10 @@ class Home extends React.Component<any, any>{
               The Perfect Cure for Your Sweet Tooth!!
             </p>
 
-            <div className=" flex flex-row gap-6">
-              <Button title="MORE MENU" />
-            </div>
+              <div className={'text-center mt-5 text-white'}>
+                  <button className={'main-btn '}>See more</button>
+              </div>
+
           </div>
 
           <div className="relative">
