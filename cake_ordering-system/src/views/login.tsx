@@ -6,7 +6,7 @@ class Login extends React.Component<any, any> {
 
   render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | Iterable<React.ReactNode> | React.ReactPortal | boolean | any | null | undefined {
     return(
-      <section className={'flex justify-center items-center p-5 bg-pink-100'}>
+      <section className={'flex justify-center items-center p-5 bg-white'}>
         <div className={'w-fit p-24 border shadow-xl rounded-xl bg-white font-bold text-black'}>
 
           <img src="/src/assets/logo.jpg" title="logo" alt="logo" className={'w-24 m-auto'}/>
