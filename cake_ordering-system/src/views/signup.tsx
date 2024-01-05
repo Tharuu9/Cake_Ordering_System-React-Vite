@@ -4,7 +4,7 @@ import Input from "./../components/input/input";
 
 function Signup(): JSX.Element {
     return(
-      <section className={'flex justify-center items-center p-5 bg-pink-100'}>
+      <section className={'flex justify-center items-center p-5 bg-white'}>
         <div className={'w-fit p-10 border shadow-xl rounded-xl bg-white'}>
 
           <img src="/src/assets/logo.jpg" title="logo" alt="logo" className={'w-24 m-auto'}/>
