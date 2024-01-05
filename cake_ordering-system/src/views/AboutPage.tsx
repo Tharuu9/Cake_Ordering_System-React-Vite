@@ -24,8 +24,8 @@ class MenuPage extends React.Component<any, any>{
 
                     </p>
 
-                    <div className=" flex flex-row gap-6">
-                        <Button title="See more" />
+                    <div className={'text-center mt-5 text-white'}>
+                        <button className={'main-btn '}>Go to menu</button>
                     </div>
 
                 </div>
