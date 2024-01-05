@@ -9,7 +9,7 @@ class Header extends React.Component<any, any> {
       <header>
         <nav className={'flex justify-between items-center bg-white-100 p-5 font-bold text-inter-950 bold'}>
           <img src="/src/assets/logo.jpg" title="logo" alt="logo" className={'w-[50px]'}/>
-          <ul className={'flex gap-[4vw] font-bold text-amber-950'}>
+          <ul className={'flex gap-[4vw] font-bold text-black'}>
             <li><Link to={'/'}>HOME</Link></li>
             <li><Link to={'/AboutPage'}>ABOUT US</Link></li>
             <li><Link to={'/menu'}>MENU</Link></li>
