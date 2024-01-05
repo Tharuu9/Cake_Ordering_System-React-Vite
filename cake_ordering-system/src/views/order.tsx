@@ -10,7 +10,7 @@ function Order(): JSX.Element {
             <div className={'w-fit p-10 border shadow-xl rounded-xl'}>
                 <img src="/src/assets/logo.jpg" title="logo" alt="logo" className={'w-24 m-auto'}/>
 
-                <div className={'text-2xl font-bold text-amber-950 text-center mt-5'}>
+                <div className={'text-2xl font-bold text-white text-center mt-5'}>
                     Order Now
                 </div>
 
@@ -49,8 +49,8 @@ function Order(): JSX.Element {
                         optional={false}/>
                 </div>
 
-                <div className={'text-center mt-5 bg-amber-950'}>
-                    <button className={'main-btn bg-amber-950'}>Order</button>
+                <div className={'text-center mt-5 bg-black'}>
+                    <button className={'main-btn bg-black'}>Order</button>
                 </div>
 
 
