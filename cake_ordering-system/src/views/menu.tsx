@@ -11,7 +11,7 @@ import img6 from "../assets/menu6.jpg";
 function  Menu():JSX.Element {
         return (
 
-            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-pink-100 font-bold text-amber-950 italic">
+            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-white font-bold text-amber-950 italic">
                 <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
                     Our Exclusive Products
                 </h1>
